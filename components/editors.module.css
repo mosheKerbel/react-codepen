@@ -1,0 +1,13 @@
+.editorTitle {
+    padding: 10px;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+
+.editorContainer {
+    background-color: #1d1e22;
+    height: 100%;
+    color: #b7bbc8;
+    padding-left: 5px;
+    position: relative;
+}

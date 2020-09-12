@@ -1,0 +1,41 @@
+.previewIframe {
+  width: 100vw;
+  height: 100vh;
+  border: 0;
+  pointer-events: none;
+}
+
+.loading {
+  width: 100vw;
+  height: 100vh;
+  background: #1d1e22;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Tahoma;
+}
+
+.header {
+  height: 60px;
+  background-color: #1d1e22;
+  border-bottom: 5px solid #333642;
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.button {
+  background-color: #333642;
+  color: #fff;
+  font-size: 15px;
+  padding: 3px 20px;
+  margin-right: 10px;
+  border: 3px solid #444857;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button:hover, .button:focus {
+  background-color: #5a6074;
+}
